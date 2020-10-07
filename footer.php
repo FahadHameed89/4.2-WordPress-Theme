@@ -1,5 +1,5 @@
 <footer>
-    <h2><?php bloginfo( 'title' );  ?>Footer</h2>
+    <h2><?php bloginfo( 'title' );  ?> Footer</h2>
     <p>
         &copy;
         <?php echo date('Y');?>
