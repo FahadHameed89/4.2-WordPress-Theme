@@ -31,5 +31,14 @@
             // Should we output this script in the footer.php?
             FALSE
         );
+        
+        // Now lets enqueue a stylesheet
+        wp_enqueue_style(
+            'techcareers-theme-main-styles',
+            get_theme_file_uri( '/assets/css/main.css' ),
+            strftime( get_theme_file_uri( 'assets/js/scripts.js' ) ),
+            // The Type of media we are targetting.
+            'all'
+        );
     } 
 );
