@@ -11,3 +11,12 @@
             'footer_menu' => 'Main Menu (Footer)'
         )
     );
+
+    /**
+     * Queue up some stylesheets and scripts
+     */
+    add_action(  'wp_enqueue_scripts', function () 
+    {
+
+    } 
+);
